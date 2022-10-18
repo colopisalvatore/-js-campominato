@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- <script src="https: //cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> -->
+    
+    <!--  Main CSS File -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!--  Main JS File -->
+    <script src="./js/library.js"></script>
+    <script src="./js/script.js" defer></script>
+
+    <title>Campo Minato</title>
+</head>
+<body>
+    <header class="d-flex justify-content-around align-items-center text-white">
+        <div class="d-flex align-items-center">
+            <a class="navbar-brand fs-2 text-uppercase" href="#">
+                <img src="./img/mine.png" width="50" height="50" class="d-inline-block align-top "
+                    alt="">
+                Campo Minato!
+            </a>
+        </div>
+        <div class="d-flex">
+            <select class="form-select fw-bold " name="livello" id="level">
+                <!-- <option selected>Seleziona il livello</option> -->
+                <option value="1" selected>easy</option>
+                <option value="2">hard</option>
+                <option value="3">crazy</option>
+            </select>
+            <button class="btn btn-secondary btn-color fw-bold ms-1" id="start">Start</button>
+        </div>
+    </header>
+    <main>
+        <div class="container-md d-flex justify-content-center" id="field">
+    
+        </div>
+    </main>
+    <footer class="d-flex justify-content-around align-items-center text-white">
+        <p>Made with <span class="heart">&hearts;</span> by Boolean</p>
+    </footer>
+</body>
+</html>
